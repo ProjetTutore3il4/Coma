@@ -1,0 +1,8 @@
+{
+  "name": "coma",
+  "app_id": "1b98ebdb",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
