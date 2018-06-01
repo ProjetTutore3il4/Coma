@@ -86,4 +86,5 @@
     <plugin name="cordova-plugin-googlemaps" spec="^2.2.9">
         <variable name="API_KEY_FOR_IOS" value="AIzaSyAR8KdhOYBDT6TwV4vZ4q4enuj4U862jtg" />
     </plugin>
+    <plugin name="cordova-plugin-firebase" spec="^1.0.5" />
 </widget>

@@ -7,12 +7,27 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>comments</ion-title>
-  </ion-navbar>
+    <ion-title>comments
+    </ion-title>
 
+  </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
 
 </ion-content>
+
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-10>
+        <ion-input type="text" placeholder="Type a message" ></ion-input>
+        //[(ngModel)]="data.message" name="message"
+      </ion-col>
+      <ion-col col-2 (click)="sendMessage()">
+        <ion-icon name="paper-plane"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

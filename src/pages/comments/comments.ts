@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {TabsPage} from "../../../Coma/src/pages/tabs/tabs";
 
 /**
  * Generated class for the CommentsPage page.
@@ -21,5 +22,7 @@ export class CommentsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad CommentsPage');
   }
-
+  exit(){
+    this.navCtrl.push(TabsPage);
+  }
 }

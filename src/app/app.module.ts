@@ -5,7 +5,6 @@ import { MyApp } from './app.component';
 
 
 import { TabsPage } from '../pages/tabs/tabs';
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {LoginPage} from "../pages/login/login";
@@ -13,6 +12,8 @@ import {InscriptionPage} from "../pages/inscription/inscription";
 import {MessagesPage} from "../pages/messages/messages";
 import {AnnouncePage} from "../pages/announce/announce";
 import {LocationPage} from "../pages/location/location";
+import {CommentsPage} from "../pages/comments/comments";
+import {LoadingPage} from "../pages/loading/loading";
 
 @NgModule({
   declarations: [
@@ -22,8 +23,9 @@ import {LocationPage} from "../pages/location/location";
     LocationPage,
     TabsPage,
     LoginPage,
-    InscriptionPage
-
+    InscriptionPage,
+    CommentsPage,
+    LoadingPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,9 @@ import {LocationPage} from "../pages/location/location";
     LocationPage,
     TabsPage,
     LoginPage,
-    InscriptionPage
+    InscriptionPage,
+    CommentsPage,
+   LoadingPage
   ],
   providers: [
     StatusBar,
